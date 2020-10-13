@@ -255,7 +255,7 @@ namespace Client
                 else
                     g.DrawString(sugg, Font, barFore, new PointF(leftPos, 1));
 
-                leftPos += size.Width + 2;
+                leftPos += size.Width + 16;
             }
         }
 

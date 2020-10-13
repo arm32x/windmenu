@@ -84,12 +84,12 @@ namespace Client
 
             #region Argument parsing
             Bar.Position Pos = Bar.Position.top;
-            Color NormalBack = Color.Black;
-            Color NormalFore = Color.White;
+            Color NormalBack = Color.White;
+            Color NormalFore = Color.Black;
             Color FocusedBack = getModernAccent();
 
-            Color FocusedFore = Color.White;
-            Font Font = new Font("Courier New", 14);
+            Color FocusedFore = Color.Black;
+            Font Font = new Font("Iosevka Fixed", 11);
 
             int i = 0;
             while (i < args.Length)
